@@ -20,9 +20,9 @@ const icon = document.getElementById("icon");
 icon.onclick = ()=>{
      document.body.classList.toggle("dark-theme");
      if(document.body.classList.contains("dark-theme")){
-         icon.src = "/assests/moon.png";
+         icon.src = "assests/moon.png";
      }else{
-         icon.src = "/assests/sun.png";
+         icon.src = "assests/sun.png";
      }
 }
 //-----------dark and light mode
