@@ -1284,12 +1284,15 @@ button.me-btn:hover {
   .home .home-text,
   .home .home-img {
     flex: 0 0 100%;
-    width: 100%;
+    max-width: 100%;
   }
   .home .home-text {
     order: 1;
     text-align: center;
     padding: 0px 4px;
+  }
+  .home .full-screen {
+    margin: auto;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1358,7 +1361,7 @@ button.me-btn:hover {
       font-size: 1.5rem;
     }
     .navbar .nav-links .message {
-      font-size: 0.9rem;
+      font-size: .9rem;
       display: block;
       padding: 1.5rem 0;
       margin-top: 7rem;
@@ -1474,12 +1477,15 @@ button.me-btn:hover {
   .home .home-text,
   .home .home-img {
     flex: 0 0 100%;
-    width: 100%;
+    max-width: 100%;
   }
   .home .home-text {
-    order: 2;
+    order: 1;
     text-align: center;
     padding: 0px 5px;
+  }
+  .home .full-screen {
+    margin: auto;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1553,12 +1559,15 @@ button.me-btn:hover {
   .home .home-text,
   .home .home-img {
     flex: 0 0 100%;
-    width: 100%;
+    max-width: 100%;
   }
   .home .home-text {
     order: 1;
     text-align: center;
     padding: 0px 4px;
+  }
+  .home .full-screen {
+    margin: auto;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1571,7 +1580,7 @@ button.me-btn:hover {
   }
   .home-text h2 {
     margin-bottom: 5px;
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
   .home-text h3 {
     font-size: 1rem;
@@ -1632,7 +1641,7 @@ button.me-btn:hover {
     font-size: 1.2rem;
   }
   .navbar .nav-links .message {
-    font-size: 0.7rem;
+    font-size: .7rem;
     display: block;
     padding: 1.5rem 0;
     margin-top: 7rem;
@@ -1653,12 +1662,15 @@ button.me-btn:hover {
   .home .home-text,
   .home .home-img {
     flex: 0 0 100%;
-    width: 100%;
+    max-width: 100%;
   }
   .home .home-text {
     order: 1;
     text-align: center;
     padding: 0px 4px;
+  }
+  .home .full-screen {
+    margin: auto;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1672,10 +1684,10 @@ button.me-btn:hover {
   }
   .home-text h2 {
     margin-bottom: 5px;
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
   .home-text h3 {
-    font-size: 0.9rem;
+    font-size: .9rem;
     font-family: var(--Livvic);
     font-weight: 600;
   }
