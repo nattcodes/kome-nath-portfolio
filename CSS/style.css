@@ -1304,6 +1304,56 @@ button.me-btn:hover {
     font-weight: lighter;
     font-size: 1.4rem;
   }
+  .home .home-text, .home .home-img{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-text{
+    order: 1;
+    text-align: center;
+    padding: 0px 4px;
+  }
+  .home .full-screen{
+    margin: auto;
+  }
+  .home .home-img .img-box{
+    margin-top: -30px;
+    margin-bottom: 20px;
+    max-width: 350px;
+  }
+  .home-text h1 {
+    font-size: 1.7rem;
+    font-family: var(--Poppins);
+  }
+  .home-text h2 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  .home-text h3 {
+    font-size: 1.2rem;
+    font-family: var(--Livvic);
+    font-weight: 600;
+  }
+  .home-text h4 {
+    margin-top: 12px;
+    color: var(--dom2-color);
+    text-align: left;
+    font-size: 0.8rem;
+    font-family: var(--Livvic);
+  }
+  #btn {
+    order: 2;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    margin: 10px;
+    margin-top: 11px;
+    font-size: 0.8rem;
+    font-family: var(--Poppins);
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 414px) {
   #icon {
@@ -1330,6 +1380,11 @@ button.me-btn:hover {
   }
   .navbar .brand a {
     font-size: 1.5rem;
+  }
+  .text {
+    font-family: var(--Poppins);
+    font-weight: lighter;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 320px) {
@@ -1393,6 +1448,11 @@ button.me-btn:hover {
   }
   .navbar .brand a {
     font-size: 1.2rem;
+  }
+  .text {
+    font-family: var(--Poppins);
+    font-weight: lighter;
+    font-size: 1rem;
   }
 }
 /* -------x----View Port------x------ */
