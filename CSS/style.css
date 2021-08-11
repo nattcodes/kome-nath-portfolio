@@ -1548,7 +1548,7 @@ button.me-btn:hover {
   .home-text h4 {
     margin-top: 12px;
     color: var(--dom2-color);
-    text-align: left;
+    text-align: center;
     font-size: 0.9rem;
     font-family: var(--Livvic);
   }
