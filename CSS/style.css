@@ -10,7 +10,6 @@ body {
   height: 100vh;
   width: 100%;
   overflow-x: hidden;
-  line-height: 1.5;
 }
 
 /* -----------Global Classes------------ */
@@ -344,8 +343,7 @@ ul {
 .home {
   position: relative;
   padding: 150px 0px;
-  width: 100%;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -482,7 +480,6 @@ ul {
   flex: 0 0 50%;
   max-width: 50%;
   padding: 0 15px;
-  flex-wrap: wrap;
 }
 .home .home-img .img-box {
   max-width: 360px;
