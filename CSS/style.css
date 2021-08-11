@@ -42,9 +42,12 @@ body {
   --icon-shadow2: rgb(29, 149, 247);
   --social-color: rgb(221, 221, 221);
   --sideMenu-color: #121212;
-  --contact-color: linear-gradient(347deg, rgb(245, 245, 245) 35%, rgb(255, 255, 255) 35%);
+  --contact-color: linear-gradient(
+    347deg,
+    rgb(245, 245, 245) 35%,
+    rgb(255, 255, 255) 35%
+  );
   --contact-color1: rgb(0, 140, 255);
-  
 }
 .dark-theme {
   --primary-color: rgb(56, 133, 250);
@@ -82,7 +85,7 @@ ul {
 .inner-shadow {
   box-shadow: var(--inner-shadow);
 }
-.socials a{
+.socials a {
   color: var(--secondary-color);
 }
 
@@ -280,11 +283,11 @@ ul {
 .navbar .nav-links li a:hover::after {
   width: 100%;
 }
-.navbar .nav-links .message{
+.navbar .nav-links .message {
   color: var(--secondary-color);
   display: none;
 }
-.navbar .nav-links .s{
+.navbar .nav-links .s {
   color: var(--secondary-color);
   display: none;
 }
@@ -496,12 +499,12 @@ ul {
   background: var(--contact-color);
   visibility: hidden;
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 #popup.active {
   visibility: visible;
   opacity: 1;
-  transition: .3s;
+  transition: 0.3s;
   z-index: 5;
 }
 .pop1 a::after {
@@ -516,14 +519,14 @@ ul {
 }
 .pop1 a:hover::after {
   width: 100%;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .pop-content {
   color: #121212;
   text-align: center;
   margin-top: 13%;
 }
-.pop3{
+.pop3 {
   font-size: 1.5rem;
   font-family: var(--Poppins);
   font-weight: lighter;
@@ -537,9 +540,9 @@ ul {
   font-weight: 600;
   font-weight: bolder;
 }
-.pop1 a:hover{
+.pop1 a:hover {
   color: var(--contact-color1);
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 .close {
   cursor: pointer;
@@ -549,18 +552,18 @@ ul {
   top: 39px;
   right: 65px;
 }
-.pop-content .pop5{
+.pop-content .pop5 {
   margin-top: 9rem;
 }
-.pop5{
+.pop5 {
   color: var(--secondary-color);
   padding: 1rem;
   font-size: 1rem;
   font-weight: lighter;
   font-family: var(--Livvic);
 }
-.socials i{
-  padding: 0 .5rem;
+.socials i {
+  padding: 0 0.5rem;
 }
 /*---x---- contact pop-up-----x---- */
 button.cv-btn {
@@ -636,7 +639,7 @@ button.me-btn:hover {
     margin-top: 2rem;
     display: flex;
   }
-  .navbar .nav-links .message{
+  .navbar .nav-links .message {
     display: block;
     padding: 1.5rem 0;
     margin-top: 5.5rem;
@@ -644,7 +647,7 @@ button.me-btn:hover {
     font-family: var(--Poppins);
     color: var(--secondary-color);
   }
-  .navbar .nav-links .s{
+  .navbar .nav-links .s {
     display: inline-block;
     padding: 0 1rem;
     color: var(--secondary-color);
@@ -679,7 +682,7 @@ button.me-btn:hover {
   .navbar .nav-links .nav-items a:hover {
     color: var(--sideMenu-color);
   }
- 
+
   #icon {
     width: 1.8rem;
   }
@@ -1210,7 +1213,11 @@ button.me-btn:hover {
     padding: 0 5px;
   }
   .navbar {
+    position: fixed;
+    /* background-color: white; */
+    width: 100%;
     padding: 20px 9px;
+    z-index: 5;
   }
   .navbar .brand a {
     font-size: 2rem;
@@ -1244,7 +1251,6 @@ button.me-btn:hover {
   }
 }
 @media (max-width: 375px) {
-  
   #icon {
     width: 21px;
   }
@@ -1267,7 +1273,7 @@ button.me-btn:hover {
     line-height: 25px;
     transition: all 0.3s ease-in-out;
   }
-  .content{
+  .content {
     max-width: 720px;
     padding: 0 1px;
   }
