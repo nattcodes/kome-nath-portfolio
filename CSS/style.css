@@ -889,7 +889,7 @@ button.me-btn:hover {
     font-family: var(--Livvic);
   }
   /* ------------------------vp home */
-  .occupation::after{
+  .occupation::after {
     left: 0;
   }
   @keyframes occupation {
@@ -1344,7 +1344,7 @@ button.me-btn:hover {
   .home-content {
     padding: 0 10px;
   }
-  .occupation::after{
+  .occupation::after {
     left: 13%;
   }
   @keyframes occupation {
@@ -1552,7 +1552,7 @@ button.me-btn:hover {
     font-size: 0.9rem;
     font-family: var(--Livvic);
   }
-  .occupation::after{
+  .occupation::after {
     left: 13%;
   }
   @keyframes occupation {
@@ -1613,6 +1613,11 @@ button.me-btn:hover {
   .navbar .brand a {
     font-size: 1.4rem;
   }
+  .text {
+    font-family: var(--Poppins);
+    font-weight: lighter;
+    font-size: 1.3rem;
+  }
   .home .home-text {
     order: 1;
     text-align: center;
@@ -1620,7 +1625,7 @@ button.me-btn:hover {
   }
   .home .home-img .img-box {
     margin-bottom: 5px;
-    max-width: 350px;
+    max-width: 200px;
   }
   .home-text h1 {
     font-size: 1.3rem;
@@ -1638,18 +1643,20 @@ button.me-btn:hover {
   .home-text h4 {
     margin-top: 12px;
     color: var(--dom2-color);
-    text-align: left;
+    text-align: center;
     font-size: 0.8rem;
     font-family: var(--Livvic);
   }
+
   #btn {
     order: 2;
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.6rem 13px;
-    margin: 10px;
-    margin-top: 11px;
+    padding: 10px 1rem;
+    margin: 0 -20px;
+    margin-left: 2.5rem;
+    margin-top: 9px;
     font-size: 0.6rem;
     font-family: var(--Poppins);
     cursor: pointer;
@@ -1717,9 +1724,9 @@ button.me-btn:hover {
     max-width: 350px;
   }
   .home-text h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: var(--Poppins);
-    padding: 0 40px;
+    padding: 0 20px;
   }
   .home-text h2 {
     margin-bottom: 5px;
@@ -1731,9 +1738,9 @@ button.me-btn:hover {
     font-weight: 600;
   }
   .home-text h4 {
-    margin-top: 12px;
+    margin-top: 10px;
     color: var(--dom2-color);
-    text-align: left;
+    text-align: center;
     font-size: 0.7rem;
     font-family: var(--Livvic);
   }
@@ -1742,9 +1749,10 @@ button.me-btn:hover {
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.6rem 1.2rem;
-    margin: 10px;
-    margin-top: 11px;
+    padding: 10px 1rem;
+    margin: 0 -20px;
+    margin-left: 2.5rem;
+    margin-top: 8px;
     font-size: 0.3rem;
     font-family: var(--Poppins);
     cursor: pointer;
