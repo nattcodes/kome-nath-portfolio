@@ -1209,6 +1209,9 @@ button.me-btn:hover {
   .content {
     padding: 0 5px;
   }
+  .navbar {
+    padding: 20px 9px;
+  }
   .navbar .brand a {
     font-size: 2rem;
   }
@@ -1241,6 +1244,7 @@ button.me-btn:hover {
   }
 }
 @media (max-width: 375px) {
+  
   #icon {
     width: 21px;
   }
@@ -1262,6 +1266,10 @@ button.me-btn:hover {
     font-weight: 600;
     line-height: 25px;
     transition: all 0.3s ease-in-out;
+  }
+  .content{
+    max-width: 720px;
+    padding: 0 1px;
   }
 }
 @media (max-width: 414px) {
