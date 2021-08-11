@@ -1360,6 +1360,20 @@ button.me-btn:hover {
     .navbar .brand a {
       font-size: 1.5rem;
     }
+    .navbar .nav-links .message {
+      font-size: .9rem;
+      display: block;
+      padding: 1.5rem 0;
+      margin-top: 7rem;
+      font-weight: lighter;
+      font-family: var(--Poppins);
+      color: var(--secondary-color);
+    }
+    .navbar .nav-links .s {
+      display: inline-block;
+      padding: 0 1rem;
+      color: var(--secondary-color);
+    }
     .text {
       font-family: var(--Poppins);
       font-weight: lighter;
@@ -1444,6 +1458,19 @@ button.me-btn:hover {
   .content {
     max-width: 720px;
     padding: 0 1px;
+  }
+  .navbar .nav-links .message {
+    display: block;
+    padding: 1.5rem 0;
+    margin-top: 7rem;
+    font-weight: lighter;
+    font-family: var(--Poppins);
+    color: var(--secondary-color);
+  }
+  .navbar .nav-links .s {
+    display: inline-block;
+    padding: 0 1rem;
+    color: var(--secondary-color);
   }
   .text {
     font-family: var(--Poppins);
@@ -1547,19 +1574,19 @@ button.me-btn:hover {
   }
   .home .home-img .img-box {
     margin-top: -30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     max-width: 350px;
   }
   .home-text h1 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-family: var(--Poppins);
   }
   .home-text h2 {
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: .9rem;
   }
   .home-text h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: var(--Livvic);
     font-weight: 600;
   }
@@ -1567,7 +1594,7 @@ button.me-btn:hover {
     margin-top: 12px;
     color: var(--dom2-color);
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-family: var(--Livvic);
   }
   #btn {
@@ -1575,10 +1602,10 @@ button.me-btn:hover {
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 13px;
     margin: 10px;
     margin-top: 11px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-family: var(--Poppins);
     cursor: pointer;
     flex-wrap: wrap;
@@ -1616,6 +1643,20 @@ button.me-btn:hover {
   .navbar .brand a {
     font-size: 1.2rem;
   }
+  .navbar .nav-links .message {
+    font-size: .7rem;
+    display: block;
+    padding: 1.5rem 0;
+    margin-top: 7rem;
+    font-weight: lighter;
+    font-family: var(--Poppins);
+    color: var(--secondary-color);
+  }
+  .navbar .nav-links .s {
+    display: inline-block;
+    padding: 0 1rem;
+    color: var(--secondary-color);
+  }
   .text {
     font-family: var(--Poppins);
     font-weight: lighter;
@@ -1640,15 +1681,16 @@ button.me-btn:hover {
     max-width: 350px;
   }
   .home-text h1 {
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-family: var(--Poppins);
+    padding: 0 40px;
   }
   .home-text h2 {
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
   .home-text h3 {
-    font-size: 1.2rem;
+    font-size: .9rem;
     font-family: var(--Livvic);
     font-weight: 600;
   }
@@ -1656,7 +1698,7 @@ button.me-btn:hover {
     margin-top: 12px;
     color: var(--dom2-color);
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-family: var(--Livvic);
   }
   #btn {
@@ -1664,10 +1706,10 @@ button.me-btn:hover {
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1.2rem;
     margin: 10px;
     margin-top: 11px;
-    font-size: 0.8rem;
+    font-size: 0.3rem;
     font-family: var(--Poppins);
     cursor: pointer;
     flex-wrap: wrap;
