@@ -113,13 +113,11 @@ ul {
 .text-1,
 .text-3,
 .text-4,
-.text-8,
-.text-9,
-.text-11,
-.text-14,
-.text-16,
-.text-18,
-.text-21, {
+.text-6,
+.text-7,
+.text-10,
+.text-12,
+.text-15 {
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px white;
 }
@@ -166,7 +164,8 @@ ul {
   opacity: 0;
 }
 .text-8 {
-  animation: blink 0.8s linear 0.2s, blink 0.8s linear 2.3s, slide-out 1s linear 3.2s;
+  animation: blink 0.8s linear 0.2s, blink 0.8s linear 2.3s,
+    slide-out 1s linear 3.2s;
   opacity: 0;
 }
 .text-9 {
@@ -199,26 +198,6 @@ ul {
 }
 .text-16 {
   animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.3s;
-  opacity: 0;
-}
-.text-17 {
-  animation: blink 0.8s linear 0.3s, blink 0.8s linear 2.2s;
-  opacity: 0;
-}
-.text-18 {
-  animation: blink 0.8s linear 0.2s, blink 0.8s linear 2.1s;
-  opacity: 0;
-}
-.text-19 {
-  animation: blink 0.8s linear 0.1s, blink 0.8s linear 2.2s;
-  opacity: 0;
-}
-.text-20 {
-  animation: blink 0.8s linear 0.9s, blink 0.8s linear 2.3s;
-  opacity: 0;
-}
-.text-21 {
-  animation: blink 0.8s linear 0.9s, blink 0.8s linear 2.4s;
   opacity: 0;
 }
 @keyframes slide-out {
