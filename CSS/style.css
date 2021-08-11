@@ -1305,7 +1305,7 @@ button.me-btn:hover {
     max-width: 300px;
   }
   .home-text h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-family: var(--Poppins);
   }
   .home-text h2 {
@@ -1401,7 +1401,7 @@ button.me-btn:hover {
       max-width: 290px;
     }
     .home-text h1 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-family: var(--Poppins);
     }
     .home-text h2 {
@@ -1490,7 +1490,7 @@ button.me-btn:hover {
     max-width: 280px;
   }
   .home-text h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: var(--Poppins);
     padding: 0 1px;
   }
