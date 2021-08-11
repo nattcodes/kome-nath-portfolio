@@ -107,7 +107,7 @@ ul {
 }
 .text {
   font-family: var(--Poppins);
-  font-weight: lighter;
+  font-weight: bolder;
   font-size: 54px;
 }
 .text-1,
@@ -118,7 +118,7 @@ ul {
 .text-10,
 .text-12,
 .text-15 {
-  color: rgb(0, 0, 0);
+  color: #121212;
   -webkit-text-stroke: 1px white;
 }
 @keyframes blink {
