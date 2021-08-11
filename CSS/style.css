@@ -1302,7 +1302,7 @@ button.me-btn:hover {
   .text {
     font-family: var(--Poppins);
     font-weight: lighter;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 414px) {
