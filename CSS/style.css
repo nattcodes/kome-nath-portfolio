@@ -347,6 +347,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  overflow-x: hidden;
 }
 #blur.active {
   filter: blur(20px);
@@ -358,6 +359,7 @@ ul {
   width: 100%;
   padding: 0 40px;
   z-index: 1;
+  overflow-x: hidden;
 }
 .home-row {
   display: flex;
