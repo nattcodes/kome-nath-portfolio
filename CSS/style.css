@@ -601,6 +601,7 @@ button.cv-btn {
   font-size: 1rem;
   font-family: var(--Poppins);
   cursor: pointer;
+  overflow-x: hidden;
 }
 .cv-btn a {
   color: rgb(238, 238, 238);
@@ -621,6 +622,7 @@ button.me-btn {
   font-size: 1rem;
   font-family: var(--Poppins);
   cursor: pointer;
+  overflow-x: hidden;
 }
 .me-btn a {
   color: rgb(238, 238, 238);
