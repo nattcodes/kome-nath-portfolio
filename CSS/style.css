@@ -1325,13 +1325,20 @@ button.me-btn:hover {
     text-align: center;
     font-family: var(--Livvic);
   }
+  .home-content{
+    padding: 0 10px;
+  }
+  button.cv-btn{
+   
+  }
   #btn {
     order: 2;
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.6rem 3rem;
-    margin: 13px;
+    padding: 10px 2rem;
+    margin: 0 -30px;
+    margin-left: 4.5rem;
     margin-top: 11px;
     font-size: 0.9rem;
     font-family: var(--Poppins);
@@ -1399,10 +1406,10 @@ button.me-btn:hover {
     }
     .home .home-img .img-box {
       margin-bottom: 20px;
-      max-width: 290px;
+      max-width: 270px;
     }
     .home-text h1 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       font-family: var(--Poppins);
     }
     .home-text h2 {
@@ -1421,13 +1428,17 @@ button.me-btn:hover {
       font-size: 0.9rem;
       font-family: var(--Livvic);
     }
+    .home-content{
+      padding: 0 10px;
+    }
     #btn {
       order: 1;
       background-color: var(--primary-color);
       border: none;
       border-radius: 0.5rem;
-      padding: 0.6rem 1.7rem;
-      margin: 10px;
+      padding: 10px 1rem;
+    margin: 0 -20px;
+    margin-left: 3.5rem;
       margin-top: 11px;
       font-size: 0.8rem;
       font-family: var(--Poppins);
@@ -1488,10 +1499,10 @@ button.me-btn:hover {
   }
   .home .home-img .img-box {
     margin-bottom: 10px;
-    max-width: 280px;
+    max-width: 250px;
   }
   .home-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: var(--Poppins);
     padding: 0 1px;
   }
@@ -1516,8 +1527,9 @@ button.me-btn:hover {
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.6rem 1rem;
-    margin: 10px;
+    padding: 10px 1rem;
+    margin: 0 -20px;
+    margin-left: 2.5rem;
     margin-top: 11px;
     font-size: 0.8rem;
     font-family: var(--Poppins);
