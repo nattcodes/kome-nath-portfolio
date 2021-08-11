@@ -1292,7 +1292,7 @@ button.me-btn:hover {
     padding: 0px 4px;
   }
   .home .full-screen {
-    margin: auto;
+    padding: 10px 0;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1382,12 +1382,15 @@ button.me-btn:hover {
     .home .home-text,
     .home .home-img {
       flex: 0 0 100%;
-      width: 100%;
+      max-width: 100%;
     }
     .home .home-text {
       order: 1;
       text-align: center;
       padding: 0px 4px;
+    }
+    .home .full-screen {
+      padding: 10px 0;
     }
     .home .home-img .img-box {
       margin-top: -30px;
@@ -1485,7 +1488,7 @@ button.me-btn:hover {
     padding: 0px 5px;
   }
   .home .full-screen {
-    margin: auto;
+    padding: 10px 0;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1567,7 +1570,7 @@ button.me-btn:hover {
     padding: 0px 4px;
   }
   .home .full-screen {
-    margin: auto;
+    padding: 10px 0;
   }
   .home .home-img .img-box {
     margin-top: -30px;
@@ -1668,9 +1671,6 @@ button.me-btn:hover {
     order: 1;
     text-align: center;
     padding: 0px 4px;
-  }
-  .home .full-screen {
-    margin: auto;
   }
   .home .home-img .img-box {
     margin-top: -30px;
