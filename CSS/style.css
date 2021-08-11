@@ -1336,6 +1336,7 @@ button.me-btn:hover {
     font-size: 0.9rem;
     font-family: var(--Poppins);
     cursor: pointer;
+    max-width: 100%;
   }
 
   @media (max-width: 414px) {
@@ -1421,7 +1422,7 @@ button.me-btn:hover {
       font-family: var(--Livvic);
     }
     #btn {
-      order: 2;
+      order: 1;
       background-color: var(--primary-color);
       border: none;
       border-radius: 0.5rem;
@@ -1431,7 +1432,7 @@ button.me-btn:hover {
       font-size: 0.8rem;
       font-family: var(--Poppins);
       cursor: pointer;
-      flex-wrap: wrap;
+      max-width: 100%;
     }
   }
 }
@@ -1521,7 +1522,7 @@ button.me-btn:hover {
     font-size: 0.8rem;
     font-family: var(--Poppins);
     cursor: pointer;
-    flex-wrap: wrap;
+    max-width: 100%;
   }
 }
 @media (max-width: 320px) {
@@ -1593,7 +1594,7 @@ button.me-btn:hover {
     font-size: 0.6rem;
     font-family: var(--Poppins);
     cursor: pointer;
-    flex-wrap: wrap;
+    max-width: 100%;
   }
 }
 @media (max-width: 280px) {
@@ -1688,7 +1689,7 @@ button.me-btn:hover {
     font-size: 0.3rem;
     font-family: var(--Poppins);
     cursor: pointer;
-    flex-wrap: wrap;
+    max-width: 100%;
   }
 }
 /* -------x----View Port------x------ */
