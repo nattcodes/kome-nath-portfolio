@@ -474,6 +474,7 @@ ul {
   text-align: left;
   font-size: 1.1rem;
   font-family: var(--Livvic);
+  margin: 10px 0;
 }
 .home .home-text,
 .home .home-img {
@@ -592,13 +593,12 @@ button.cv-btn {
   background-color: var(--primary-color);
   border: none;
   border-radius: 0.5rem;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1.5rem;
   margin: 1rem;
-  margin-top: -3rem;
+  margin-top: -4rem;
   font-size: 1rem;
   font-family: var(--Poppins);
   cursor: pointer;
-  flex-wrap: wrap;
 }
 .cv-btn a {
   color: rgb(238, 238, 238);
@@ -613,13 +613,12 @@ button.me-btn {
   background-color: var(--primary-color);
   border: none;
   border-radius: 0.5rem;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1.5rem;
   margin: 1rem;
-  margin-top: -3rem;
+  margin-top: -4rem;
   font-size: 1rem;
   font-family: var(--Poppins);
   cursor: pointer;
-  flex-wrap: wrap;
 }
 .me-btn a {
   color: rgb(238, 238, 238);
@@ -1298,6 +1297,7 @@ button.me-btn:hover {
   }
   .home .full-screen {
     padding: 5px 0;
+    width: 100%;
   }
   .home .home-img .img-box {
     margin-top: -3.5rem;
@@ -1336,7 +1336,6 @@ button.me-btn:hover {
     font-size: 0.9rem;
     font-family: var(--Poppins);
     cursor: pointer;
-    flex-wrap: wrap;
   }
 
   @media (max-width: 414px) {
