@@ -630,7 +630,15 @@ button.me-btn:hover {
   transition: 0.1s ease-in-out;
 }
 /* ----x-------Home Page------x------ */
-
+.skills{
+  background: white;
+  width: 100%;
+  height: 500%;
+  text-align: center;
+  padding: 1.5rem;
+  color: rgb(19, 18, 18);
+  z-index: 5;
+}
 /* -----------View Port------------ */
 @media (max-width: 1230px) {
   /* vp nav */
@@ -1292,10 +1300,10 @@ button.me-btn:hover {
     padding: 0px 4px;
   }
   .home .full-screen {
-    padding: 10px 0;
+    padding: 5px 0;
   }
   .home .home-img .img-box {
-    margin-top: -30px;
+    margin-top: -3.5rem;
     margin-bottom: 20px;
     max-width: 300px;
   }
@@ -1390,10 +1398,9 @@ button.me-btn:hover {
       padding: 0px 4px;
     }
     .home .full-screen {
-      padding: 10px 0;
+      padding: 5px 0;
     }
     .home .home-img .img-box {
-      margin-top: -30px;
       margin-bottom: 20px;
       max-width: 290px;
     }
@@ -1477,21 +1484,12 @@ button.me-btn:hover {
     font-weight: lighter;
     font-size: 1.4rem;
   }
-  .home .home-text,
-  .home .home-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .home .home-text {
     order: 1;
     text-align: center;
     padding: 0px 5px;
   }
-  .home .full-screen {
-    padding: 10px 0;
-  }
   .home .home-img .img-box {
-    margin-top: -30px;
     margin-bottom: 10px;
     max-width: 280px;
   }
@@ -1559,21 +1557,12 @@ button.me-btn:hover {
   .navbar .brand a {
     font-size: 1.4rem;
   }
-  .home .home-text,
-  .home .home-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .home .home-text {
     order: 1;
     text-align: center;
     padding: 0px 4px;
   }
-  .home .full-screen {
-    padding: 10px 0;
-  }
   .home .home-img .img-box {
-    margin-top: -30px;
     margin-bottom: 5px;
     max-width: 350px;
   }
@@ -1662,18 +1651,12 @@ button.me-btn:hover {
     font-weight: lighter;
     font-size: 1rem;
   }
-  .home .home-text,
-  .home .home-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .home .home-text {
     order: 1;
     text-align: center;
     padding: 0px 4px;
   }
   .home .home-img .img-box {
-    margin-top: -30px;
     margin-bottom: 20px;
     max-width: 350px;
   }
