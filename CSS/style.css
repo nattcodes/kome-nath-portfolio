@@ -107,7 +107,7 @@ ul {
 }
 .text {
   font-family: var(--Poppins);
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 54px;
 }
 .text-1,
