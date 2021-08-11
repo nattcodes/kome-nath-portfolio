@@ -889,7 +889,23 @@ button.me-btn:hover {
     font-family: var(--Livvic);
   }
   /* ------------------------vp home */
-
+  .occupation::after{
+    left: 0;
+  }
+  @keyframes occupation {
+    0% {
+      left: 0;
+      width: 0;
+    }
+    50% {
+      left: 0;
+      width: 80%;
+    }
+    100% {
+      left: 79%;
+      width: 0%;
+    }
+  }
   #btn {
     background-color: var(--primary-color);
     border: none;
@@ -1328,7 +1344,22 @@ button.me-btn:hover {
   .home-content {
     padding: 0 10px;
   }
-  button.cv-btn {
+  .occupation::after{
+    left: 13%;
+  }
+  @keyframes occupation {
+    0% {
+      left: 13%;
+      width: 0;
+    }
+    50% {
+      left: 13%;
+      width: 80%;
+    }
+    100% {
+      left: 87%;
+      width: 0%;
+    }
   }
   #btn {
     order: 2;
@@ -1520,6 +1551,23 @@ button.me-btn:hover {
     text-align: left;
     font-size: 0.9rem;
     font-family: var(--Livvic);
+  }
+  .occupation::after{
+    left: 13%;
+  }
+  @keyframes occupation {
+    0% {
+      left: 13%;
+      width: 0;
+    }
+    50% {
+      left: 13%;
+      width: 80%;
+    }
+    100% {
+      left: 87%;
+      width: 0%;
+    }
   }
   #btn {
     order: 2;
