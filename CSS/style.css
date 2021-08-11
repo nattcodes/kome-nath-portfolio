@@ -347,7 +347,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  overflow-x: hidden;
 }
 #blur.active {
   filter: blur(20px);
@@ -359,7 +358,6 @@ ul {
   width: 100%;
   padding: 0 40px;
   z-index: 1;
-  overflow-x: hidden;
 }
 .home-row {
   display: flex;
@@ -601,7 +599,6 @@ button.cv-btn {
   font-size: 1rem;
   font-family: var(--Poppins);
   cursor: pointer;
-  overflow-x: hidden;
 }
 .cv-btn a {
   color: rgb(238, 238, 238);
@@ -622,7 +619,6 @@ button.me-btn {
   font-size: 1rem;
   font-family: var(--Poppins);
   cursor: pointer;
-  overflow-x: hidden;
 }
 .me-btn a {
   color: rgb(238, 238, 238);
@@ -633,7 +629,7 @@ button.me-btn:hover {
   transition: 0.1s ease-in-out;
 }
 /* ----x-------Home Page------x------ */
-.skills{
+.skills {
   height: 100vh;
   width: 100%;
   background: rgba(218, 0, 0, 0.945);
@@ -1329,11 +1325,10 @@ button.me-btn:hover {
     text-align: center;
     font-family: var(--Livvic);
   }
-  .home-content{
+  .home-content {
     padding: 0 10px;
   }
-  button.cv-btn{
-   
+  button.cv-btn {
   }
   #btn {
     order: 2;
@@ -1377,7 +1372,7 @@ button.me-btn:hover {
       font-size: 1.5rem;
     }
     .navbar .nav-links .message {
-      font-size: .9rem;
+      font-size: 0.9rem;
       display: block;
       padding: 1.5rem 0;
       margin-top: 7rem;
@@ -1432,7 +1427,7 @@ button.me-btn:hover {
       font-size: 0.9rem;
       font-family: var(--Livvic);
     }
-    .home-content{
+    .home-content {
       padding: 0 10px;
     }
     #btn {
@@ -1441,8 +1436,8 @@ button.me-btn:hover {
       border: none;
       border-radius: 0.5rem;
       padding: 10px 1rem;
-    margin: 0 -20px;
-    margin-left: 3.5rem;
+      margin: 0 -20px;
+      margin-left: 3.5rem;
       margin-top: 11px;
       font-size: 0.8rem;
       font-family: var(--Poppins);
@@ -1585,7 +1580,7 @@ button.me-btn:hover {
   }
   .home-text h2 {
     margin-bottom: 5px;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .home-text h3 {
     font-size: 1rem;
@@ -1646,7 +1641,7 @@ button.me-btn:hover {
     font-size: 1.2rem;
   }
   .navbar .nav-links .message {
-    font-size: .7rem;
+    font-size: 0.7rem;
     display: block;
     padding: 1.5rem 0;
     margin-top: 7rem;
@@ -1680,10 +1675,10 @@ button.me-btn:hover {
   }
   .home-text h2 {
     margin-bottom: 5px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .home-text h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-family: var(--Livvic);
     font-weight: 600;
   }
