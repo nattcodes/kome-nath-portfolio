@@ -44,10 +44,13 @@ body {
   --sideMenu-color: #121212;
   --contact-color: linear-gradient(
     347deg,
-    rgb(245, 245, 245) 35%,
+    rgb(238, 238, 238) 35%,
     rgb(255, 255, 255) 35%
   );
   --contact-color1: rgb(0, 140, 255);
+  --about-color: linear-gradient(347deg, rgb(19, 19, 19) 45%, #0e0e0e 35%);
+  --about-shadow: 1px 1px 4px rgb(109, 109, 109);
+  --sticky: rgb(248, 247, 247);
 }
 .dark-theme {
   --primary-color: rgb(56, 133, 250);
@@ -66,6 +69,13 @@ body {
   --sideMenu-color: #f8f8f8;
   --contact-color: linear-gradient(347deg, rgb(22, 22, 22) 35%, #121212 35%);
   --contact-color1: rgb(71, 171, 253);
+  --about-color: linear-gradient(
+    347deg,
+    rgb(230, 230, 230) 45%,
+    rgb(255, 255, 255) 35%
+  );
+  --about-shadow: 1px 1px 4px rgb(24, 23, 23);
+  --sticky: rgb(248, 247, 247);
 }
 
 a {
@@ -260,6 +270,14 @@ ul {
   margin: auto;
   padding: 0 2rem;
 }
+.navbar.sticky {
+  padding: 5px 30px;
+  background: rgb(29, 29, 29);
+  transition: .5s ease-in-out;
+}
+.navbar.sticky .nav-links li a{
+  color: white;
+}
 .navbar .content {
   display: flex;
   flex-wrap: wrap;
@@ -356,7 +374,7 @@ ul {
 .home-content {
   position: relative;
   width: 100%;
-  padding: 0 40px;
+  padding: 15px 40px;
   z-index: 1;
 }
 .home-row {
@@ -629,12 +647,54 @@ button.me-btn:hover {
   transition: 0.1s ease-in-out;
 }
 /* ----x-------Home Page------x------ */
-.skills {
-  height: 100vh;
+
+/* -----------About------------ */
+.about{
+  background: var(--about-color);
+  position: relative;
   width: 100%;
-  background: rgba(218, 0, 0, 0.945);
-  color: rgb(241, 241, 241);
+  height: 70%;
 }
+.about-h1{
+  margin: 0 3.3rem;
+  font-size: 3rem;
+  font-family: var(--Poppins);
+  font-weight: bolder;
+  color: var(--dom-color);
+}
+.about-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 17rem;
+  position: relative;
+  align-items: center;
+}
+.about-content .about-left img{
+  max-width: 430px;
+  display: block;
+  margin: -31px;
+}
+.about-content .about-right{
+  background: var(--primary-color);
+  max-width: 500px;
+  padding: 1.2rem 2rem;
+  border-radius: 20px;
+  box-shadow: var(--about-shadow);
+}
+.about-content p{
+  font-size: .9rem;
+  font-family: var(--Poppins);
+  color: white;
+  
+}
+.about .about-left,
+.about .about-right {
+  flex: 0 0 50%;
+  max-width: 50%;
+  
+}
+/* ----x-------About------x------ */
+
 /* -----------View Port------------ */
 @media (max-width: 1230px) {
   /* vp nav */
