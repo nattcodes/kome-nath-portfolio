@@ -16,6 +16,7 @@ body {
 :root {
   --primary-color: rgb(56, 133, 250);
   --secondary-color: #121212;
+  --sticky-nav: rgb(14, 13, 13);
   --dom-color: rgb(255, 255, 255);
   --dom2-color: rgb(155, 155, 155);
   --nav-color: rgb(236, 236, 236);
@@ -36,6 +37,7 @@ body {
   --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
   --inner-shadow-0: inset 0 0 0 #222327, inset 0 0 0 #f8f8f8;
   --brand-color: rgba(216, 216, 216, 0.541);
+  --sticky-brand: rgba(216, 216, 216, 0.541);
   --brand-chover: rgba(88, 85, 85, 0.39);
   --type-color: 0px 0px 9px white;
   --icon-shadow: rgb(51, 51, 51);
@@ -55,6 +57,7 @@ body {
 .dark-theme {
   --primary-color: rgb(56, 133, 250);
   --secondary-color: #f7f7f7;
+  --sticky-nav: rgb(32, 32, 32);
   --dom-color: rgb(12, 12, 12);
   --dom2-color: rgb(73, 73, 73);
   --nav-color: rgb(26, 26, 26);
@@ -63,6 +66,7 @@ body {
   --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
   --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
   --brand-color: rgba(117, 117, 117, 0.404);
+  --sticky-brand: rgba(216, 216, 216, 0.541);
   --brand-chover: rgba(29, 29, 29, 0.39);
   transition: 0.2s ease-out;
   --social-color: rgb(12, 12, 12);
@@ -174,8 +178,8 @@ ul {
   opacity: 0;
 }
 .text-8 {
-  animation: blink 0.8s linear 0.2s, blink 0.8s linear 2.3s,
-    slide-out 1s linear 3.2s;
+  animation: blink 0.8s linear 0.2s, blink 2hs linear 2.3s,
+    slide-out 1s linear 3.5s;
   opacity: 0;
 }
 .text-9 {
@@ -272,10 +276,10 @@ ul {
 }
 .navbar.sticky {
   padding: 5px 30px;
-  background: rgb(29, 29, 29);
-  transition: .5s ease-in-out;
+  background: var(--sticky-nav);
+  transition: 0.5s ease-in-out;
 }
-.navbar.sticky .nav-links li a{
+.navbar.sticky .nav-links li a {
   color: white;
 }
 .navbar .content {
@@ -291,6 +295,9 @@ ul {
   color: var(--brand-color);
   font-family: var(--Poppins);
   font-weight: 600;
+}
+.navbar.sticky .brand a {
+  color: var(--sticky-brand);
 }
 .navbar .brand a:hover {
   color: var(--brand-chover);
@@ -649,52 +656,113 @@ button.me-btn:hover {
 /* ----x-------Home Page------x------ */
 
 /* -----------About------------ */
-.about{
+.about {
+  padding: 50px 0;
   background: var(--about-color);
-  position: relative;
-  width: 100%;
-  height: 70%;
-}
-.about-h1{
-  margin: 0 3.3rem;
-  font-size: 3rem;
   font-family: var(--Poppins);
+}
+.about .about-h1 {
+  font-family: var(--Poppins);
+  margin: 0 4rem;
+  font-size: 3rem;
   font-weight: bolder;
   color: var(--dom-color);
 }
-.about-content{
+.about .about-content {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 17rem;
-  position: relative;
   align-items: center;
+  padding: 0 16rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.about-content .about-left img{
-  max-width: 430px;
-  display: block;
-  margin: -31px;
+.about .about-content .left {
+  width: 35%;
 }
-.about-content .about-right{
+.about .about-content .left img {
+  width: 350px;
+  height: 480px;
+  object-fit: cover;
+}
+.about .about-content .right .about-text {
   background: var(--primary-color);
-  max-width: 500px;
+  max-width: 390px;
   padding: 1.2rem 2rem;
   border-radius: 20px;
   box-shadow: var(--about-shadow);
-}
-.about-content p{
-  font-size: .9rem;
+  font-size: 1rem;
   font-family: var(--Poppins);
   color: white;
-  
 }
-.about .about-left,
-.about .about-right {
-  flex: 0 0 50%;
-  max-width: 50%;
-  
+.right {
+  padding: 0 4rem;
+}
+
+.about .about-content .right p {
+  text-align: justify;
 }
 /* ----x-------About------x------ */
 
+/* ----------skill------------ */
+.skill {
+  background: rgb(14, 14, 14);
+  font-family: var(--Poppins);
+  padding: 50px 0;
+}
+.skill .skill-h1 {
+  font-family: var(--Poppins);
+  text-align: right;
+  margin: 0 4rem;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+.skill .skill-content .skill-box {
+  padding: 2rem 5rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-box .box1 {
+  max-width: 21rem;
+  background: rgb(238, 238, 238);
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: -7px .1px 1px rgb(255, 72, 0);
+}
+.skill-box .box2 {
+  max-width: 21rem;
+  background: rgb(238, 238, 238);
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: -7px .1px 1px rgb(0, 153, 255);
+}
+
+.skill-box .box3 {
+  max-width: 21rem;
+  background: rgb(238, 238, 238);
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: -7px .1px 1px rgb(255, 251, 0);
+}
+#skill-icon {
+  font-size: 3rem;
+  margin: 0 30%;
+  padding-bottom: 1rem;
+  background: rgb(255, 255, 255);
+  padding: 1rem 1.3rem;
+  border-radius: 50%;
+}
+#skill-h3 {
+  font-size: 1rem;
+}
+/* ----x-------skill------x------ */
+.nxt {
+  background: white;
+}
 /* -----------View Port------------ */
 @media (max-width: 1230px) {
   /* vp nav */

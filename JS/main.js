@@ -14,9 +14,9 @@ cancelBtn.onclick = ()=>{
     menuBtn.classList.remove("hide");
 }
 
-window.onscroll = ()=>{
-    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-}
+// window.onscroll = ()=>{
+//     this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+// }
 //-----------menu bar
 
 //dark and light mode
@@ -40,4 +40,7 @@ function toggle(){
 }
 //-----------contact pop-up
 
+window.onscroll = ()=>{
+    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+}
 
