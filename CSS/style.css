@@ -774,7 +774,7 @@ button.me-btn:hover {
   width: 30%;
   align-items: center;
   text-align: center;
-  border-left: 2px solid rgb(114, 203, 255);
+  border-left: 2px solid rgb(77, 186, 248);
 }
 #skill-icon {
   font-size: 2.5rem;
@@ -788,7 +788,7 @@ button.me-btn:hover {
 #skill-h3 {
   font-size: 1rem;
   font-weight: lighter;
-  color: var(--dom2-color);
+  color: var(--dom-color);
 }
 /* ----x-------skill------x------ */
 .nxt {
