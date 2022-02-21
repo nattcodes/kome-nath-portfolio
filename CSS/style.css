@@ -277,9 +277,8 @@ ul {
   padding: 0 2rem;
 }
 .navbar.sticky {
-  padding: 5px 30px;
   background: var(--sticky-nav);
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .navbar.sticky .nav-links li a {
   color: white;
