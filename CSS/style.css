@@ -374,7 +374,7 @@ ul {
 .home {
   position: relative;
   padding: 150px 0px;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -1603,7 +1603,7 @@ button.me-btn:hover {
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 10px 2rem;
+    padding: 10px 1.5rem;
     margin: 0 -30px;
     margin-left: 4.5rem;
     margin-top: 11px;
@@ -1702,6 +1702,9 @@ button.me-btn:hover {
     font-family: var(--Poppins);
     font-weight: lighter;
     font-size: 1.6rem;
+  }
+  .home{
+    max-height: 95vh;
   }
   .home .home-text,
   .home .home-img {
