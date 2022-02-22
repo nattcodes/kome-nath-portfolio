@@ -1089,6 +1089,55 @@ button.me-btn:hover {
     font-size: 1.1rem;
     font-family: var(--Livvic);
   }
+   /*------- contact pop-up--------- */
+
+   #popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 80%;
+    padding: 50px;
+  }
+  .pop1 a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -14px;
+    transition: 0.3s ease-in-out;
+  }
+  .pop1 a:hover::after {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+  }
+  .pop-content {
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 318px;
+  }
+  .pop3 {
+    font-size: 1.5rem;
+  }
+  .pop1 a {
+    font-size: 3rem;
+  }
+  .close {
+    font-size: 2rem;
+  }
+  .pop-content .pop5 {
+    margin-top: 15rem;
+  }
+  .pop5 {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+  .socials i {
+    padding: 0 0.8rem;
+    font-size: 1.5rem;
+  }
+  /*---x---- contact pop-up-----x---- */
   /* ------------------------vp home */
   .occupation::after {
     left: 0;
@@ -1402,6 +1451,54 @@ button.me-btn:hover {
     font-size: 1rem;
     font-family: var(--Livvic);
   }
+   /*------- contact pop-up--------- */
+
+   #popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 80%;
+    padding: 50px;
+  }
+  .pop1 a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -14px;
+    transition: 0.3s ease-in-out;
+  }
+  .pop1 a:hover::after {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+  }
+  .pop-content {
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 218px;
+  }
+  .pop3 {
+    font-size: 1rem;
+  }
+  .pop1 a {
+    font-size: 2.3rem;
+  }
+  .close {
+    font-size: 1.5rem;
+  }
+  .pop-content .pop5 {
+    margin-top: 12rem;
+  }
+  .pop5 {
+    padding: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .socials i {
+    padding: 0 0.8rem;
+  }
+  /*---x---- contact pop-up-----x---- */
   /* ------------------------vp home */
 
   #btn {
@@ -1581,6 +1678,55 @@ button.me-btn:hover {
   .home-content {
     padding: 0 10px;
   }
+  /*------- contact pop-up--------- */
+
+  #popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+    padding: 50px;
+  }
+  .pop1 a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -14px;
+    transition: 0.3s ease-in-out;
+  }
+  .pop1 a:hover::after {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+  }
+  .pop-content {
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 98px;
+  }
+  .pop3 {
+    font-size: 0.8rem;
+  }
+  .pop1 a {
+    font-size: 1.4rem;
+  }
+  .close {
+    font-size: 1.2rem;
+  }
+  .pop-content .pop5 {
+    margin-top: 9rem;
+  }
+  .pop5 {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  .socials i {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+  }
+  /*---x---- contact pop-up-----x---- */
   .occupation::after {
     left: 13%;
   }
@@ -1603,7 +1749,7 @@ button.me-btn:hover {
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
-    padding: 10px 1.5rem;
+    padding: 10px 2rem;
     margin: 0 -30px;
     margin-left: 4.5rem;
     margin-top: 11px;
@@ -1746,6 +1892,54 @@ button.me-btn:hover {
   .home-content {
     padding: 0 10px;
   }
+  /*------- contact pop-up--------- */
+
+  #popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+    padding: 50px;
+  }
+  .pop1 a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -14px;
+    transition: 0.3s ease-in-out;
+  }
+  .pop1 a:hover::after {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+  }
+  .pop-content {
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 138px;
+  }
+  .pop3 {
+    font-size: 0.7rem;
+  }
+  .pop1 a {
+    font-size: 1.2rem;
+  }
+  .close {
+    font-size: 1.1rem;
+  }
+  .pop-content .pop5 {
+    margin-top: 6rem;
+  }
+  .pop5 {
+    padding: 1rem;
+    font-size: 0.6rem;
+  }
+  .socials i {
+    padding: 0 0.5rem;
+  }
+  /*---x---- contact pop-up-----x---- */
   #btn {
     order: 1;
     background-color: var(--primary-color);
@@ -1876,6 +2070,57 @@ button.me-btn:hover {
     font-size: 0.9rem;
     font-family: var(--Livvic);
   }
+  /*------- contact pop-up--------- */
+
+  #popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+    padding: 50px;
+  }
+  .pop1 a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -14px;
+    transition: 0.3s ease-in-out;
+  }
+  .pop1 a:hover::after {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+  }
+  .pop-content {
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 138px;
+  }
+  .pop3 {
+    font-size: 0.6rem;
+  }
+  .pop1 a {
+    font-size: 1rem;
+  }
+  .close {
+    font-size: 1.1rem;
+    top: 29px;
+    right: 40px;
+  }
+  .pop-content .pop5 {
+    margin-top: 7.9rem;
+  }
+  .pop5 {
+    padding: 1rem;
+    font-size: 0.5rem;
+  }
+  .socials i {
+    padding: 0 0.5rem;
+    font-size: 14px;
+  }
+  /*---x---- contact pop-up-----x---- */
   .occupation::after {
     left: 13%;
   }
