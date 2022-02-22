@@ -277,6 +277,7 @@ ul {
   padding: 0 2rem;
 }
 .navbar.sticky {
+  padding: 10px 30px;
   background: var(--sticky-nav);
   transition: 0.2s ease-in-out;
 }
@@ -362,6 +363,10 @@ ul {
   top: 34px;
   right: 65px;
 }
+.navbar.sticky .icons{
+  color: white;
+}
+
 /* nav-toggle */
 /* -----x------Navigation Bar-------x----- */
 
@@ -538,7 +543,7 @@ ul {
 .scroll {
   height: 50px;
   width: 30px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid var(--dom-color);
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -700,7 +705,7 @@ button.me-btn:hover {
 
 /* -----------About------------ */
 .about {
-  padding: 50px 0;
+  padding: 30px 0;
   background: var(--about-color);
   font-family: var(--Poppins);
 }
@@ -752,7 +757,7 @@ button.me-btn:hover {
 .skill {
   background: var(--skills);
   font-family: var(--Poppins);
-  padding: 50px 0;
+  padding: 20px 0;
   color: white;
 }
 .skill .skill-h1 {
@@ -773,10 +778,10 @@ button.me-btn:hover {
   width: 30%;
   align-items: center;
   text-align: center;
-  border-left: 2px solid rgb(77, 186, 248);
+  border-left: 3px solid rgb(77, 186, 248);
 }
 #skill-icon {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   margin: 0 30%;
   margin-bottom: .5rem;
   background-color: rgb(255, 255, 255);
@@ -785,6 +790,7 @@ button.me-btn:hover {
   border-radius: 50%;
 }
 #skill-h3 {
+  margin: 0 1rem;
   font-size: 1rem;
   font-weight: lighter;
   color: var(--dom-color);
@@ -865,6 +871,9 @@ button.me-btn:hover {
   }
   .navbar .nav-links .nav-items a:hover {
     color: var(--sideMenu-color);
+  }
+  .navbar.sticky {
+    padding: 10px;
   }
 
   #icon {
@@ -1610,6 +1619,7 @@ button.me-btn:hover {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: 2.2rem;
   }
   .a-image {
     display: none;
@@ -1628,6 +1638,21 @@ button.me-btn:hover {
     font-family: var(--Poppins);
     color: white;
   }
+  .skill .skill-h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .skill .skill-container{
+    display: block;
+    margin: 0 3.5rem;
+  }
+  .skill-container .skill-box{
+    width: 100%;
+    margin: 3rem 0;
+    border-left: 2px solid rgb(56, 147, 252);
+  }
 }
 
 @media (max-width: 414px) {
@@ -1639,6 +1664,9 @@ button.me-btn:hover {
   }
   .icons.cancel-btn {
     top: 28px;
+  }
+  .navbar .brand a{
+    padding: 0 10px;
   }
   .navbar .brand a {
     font-size: 1.7rem;
@@ -1733,7 +1761,6 @@ button.me-btn:hover {
     display: block;
     height: 45px;
     width: 25px;
-    border: 2px solid rgb(255, 255, 255);
     position: absolute;
     left: 48%;
     bottom: 30px;
@@ -1768,10 +1795,7 @@ button.me-btn:hover {
     font-family: var(--Poppins);
     color: white;
   }
-  .skill .skill-container{
-    display: block;
-    margin: 0 3rem;
-  }
+  
 }
 @media (max-width: 375px) {
   #icon {
