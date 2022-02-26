@@ -822,6 +822,9 @@ button.me-btn:hover {
   color: var(--dom-color);
   font-weight: lighter;
 }
+.project .project-container .ab.a{
+  border-bottom: none;
+}
 .project-container .ab .project-box{
   width: 50%;
   align-items: center;
@@ -849,19 +852,32 @@ button.me-btn:hover {
 }
 .project-container .ab .project-box.left .project-ul{
   display: flex;
+  align-items: center;
 }
-.project-container .ab .project-box.left .project-ul li{
-  margin: 0 .5rem;
+.project-container .ab .project-box.left .project-ul li a{
+  margin: 0 .4rem;
+  color: var(--dom-color);
+  font-size: .9rem;
 }
 .project-ul button{
-  padding: 1rem 1.2rem;
+  padding: .5rem 1.2rem;
   border-radius: 1rem;
   background: none;
-  border: 3px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   color: var(--dom-color);
   font-family: var(--Poppins);
 }
-.p-img{
+.project-ul button:hover{
+  background: var(--primary-color);
+  color: white;
+  transition: .3s ease-in-out;
+}
+.project-container .ab .project-box.left .project-ul li a i{
+  margin: .4rem;
+  font-size: .9rem;
+  color: var(--primary-color);
+}
+.project-container .ab .project-box .p-img{
   height: 350px;
   width: 600px;
   border-radius: 1rem;
@@ -997,6 +1013,15 @@ button.me-btn:hover {
     align-items: center;
     color: white;
     margin: 0 16rem;
+  }
+  /* .project .project-container .ab{
+    margin: 1rem 6rem;
+  } */
+  .project-container .ab .project-box{
+    width: 60%;
+  }
+  .project-container .ab .project-box.left{
+    width: 30%;
   }
 }
 @media (max-width: 1126px) {
@@ -1249,6 +1274,12 @@ button.me-btn:hover {
     color: white;
     margin: 0 10rem;
   }
+  .project-container .ab .project-box{
+    width: 70%;
+  }
+  .project-container .ab .project-box.left{
+    width: 25%;
+  }
 }
 @media (max-width: 1000px) {
   /* vp home */
@@ -1290,6 +1321,21 @@ button.me-btn:hover {
   .about .about-h1 {
     font-size: 2.3rem;
   }
+  .project .project-container .ab{
+   display: block;
+  }
+  .project-container .ab .project-box.left, .project-container .ab .project-box.right{
+    width: 100%;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+  .project-container .ab .project-box .p-img{
+    height: 250px;
+    width: 320px;
+    object-position: center;
+    align-items: center;
+  }
+  
 }
 @media (max-width: 959px) {
   /* vp home */
@@ -1387,6 +1433,7 @@ button.me-btn:hover {
   animation-fill-mode: forwards; */
   }
   /* ----------------img */
+  
 }
 @media (max-width: 897px) {
   /* vp home */
@@ -1449,6 +1496,10 @@ button.me-btn:hover {
     color: white;
     margin: 1rem 5rem;
   }
+  .project .project-h1{
+    font-size: 2rem;
+  }
+  
 }
 @media (max-width: 866px) {
   /* vp home */
@@ -1838,7 +1889,7 @@ button.me-btn:hover {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .a-image {
     display: none;
@@ -1861,7 +1912,7 @@ button.me-btn:hover {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .skill .skill-container{
     display: block;
@@ -1871,6 +1922,39 @@ button.me-btn:hover {
     width: 100%;
     margin: 3rem 0;
     border-left: 2px solid rgb(56, 147, 252);
+  }
+  .project .project-h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .project .project-container .ab {
+    margin: 2rem 3.5rem;
+  }
+  .project-container .ab .project-box .p-img{
+    height: 250px;
+    width: 400px;
+    margin: 0 .8rem;
+    object-position: center;
+    align-items: center;
+  }
+  .p-h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .p-4{
+    font-size: .9rem;
+    text-align: center;
+  }
+  .p-h2, .p-4{
+    line-height: 2rem;
+  }
+  .project-container .ab .project-box.left .project-text p{
+    margin: 1rem 0;
+    color: var(--dom2-color);
+    text-align: justify;
+    line-height: 1.6rem;
   }
 }
 
@@ -2050,7 +2134,7 @@ button.me-btn:hover {
     top: 10%;
   }
   .about .about-h1{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .about .about-container .about-box.right{
     width: 100%;
@@ -2066,7 +2150,39 @@ button.me-btn:hover {
     font-family: var(--Poppins);
     color: white;
   }
-  
+  .skill .skill-h1{
+    font-size: 1.5rem;
+  }
+  .project .project-h1{
+    font-size: 1.5rem;
+  }
+  .project .project-container .ab {
+    margin: 2rem 3rem;
+  }
+  .project-container .ab .project-box .p-img{
+    height: 250px;
+    width: 300px;
+    margin: 0 .7rem;
+    object-position: center;
+    align-items: center;
+  }
+  .p-h2{
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .p-4{
+    font-size: .9rem;
+    text-align: center;
+  }
+  .p-h2, .p-4{
+    line-height: 2rem;
+  }
+  .project-container .ab .project-box.left .project-text p{
+    margin: 1rem 0;
+    color: var(--dom2-color);
+    text-align: justify;
+    line-height: 1.6rem;
+  }
 }
 @media (max-width: 375px) {
   #icon {
@@ -2224,6 +2340,16 @@ button.me-btn:hover {
     font-family: var(--Poppins);
     cursor: pointer;
     max-width: 100%;
+  }
+  .p-h2{
+    font-size: 1.8rem;
+  }
+  .project-container .ab .project-box .p-img{
+    height: 250px;
+    width: 300px;
+    margin: 0 -9px;
+    object-position: center;
+    align-items: center;
   }
 }
 @media (max-width: 320px) {
