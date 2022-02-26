@@ -2162,7 +2162,7 @@ button.me-btn:hover {
   .project-container .ab .project-box .p-img{
     height: 250px;
     width: 300px;
-    margin: 0;
+    margin: 0 -5rem;
     object-position: center;
     align-items: center;
   }
@@ -2188,7 +2188,7 @@ button.me-btn:hover {
   .project-container .ab .project-box .p-img{
     height: 250px;
     width: 300px;
-    margin: 0 .1px;
+    margin: 0 1rem;
     object-position: center;
     align-items: center;
   }
