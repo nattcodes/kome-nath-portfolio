@@ -2353,13 +2353,13 @@ button.me-btn:hover {
   .p-h2{
     font-size: 1.8rem;
   }
-  .project-container .ab .project-box .p-img{
+  /* .project-container .ab .project-box .p-img{
     height: 250px;
     width: 300px;
     margin: 0 -9px;
     object-position: center;
     align-items: center;
-  }
+  } */
 }
 @media (max-width: 320px) {
   #icon {
