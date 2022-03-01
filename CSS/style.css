@@ -374,7 +374,6 @@ ul {
 .home {
   position: relative;
   padding: 150px 0px;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -882,6 +881,7 @@ button.me-btn:hover {
   width: 600px;
   border-radius: 1rem;
   border: 3px solid var(--dom-color);
+  box-shadow: var(--about-shadow);
 }
 
 /* ------x-----project------x------ */
@@ -1433,7 +1433,30 @@ button.me-btn:hover {
   animation-fill-mode: forwards; */
   }
   /* ----------------img */
-  
+  .project-container .ab .project-box .p-img{
+    height: 450px;
+    width: 750px;
+    margin: 0;
+    object-position: center;
+    align-items: center;
+  }
+  .p-h2{
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .p-4{
+    font-size: .9rem;
+    text-align: center;
+  }
+  .p-h2, .p-4{
+    line-height: 2rem;
+  }
+  .project-container .ab .project-box.left .project-text p{
+    margin: 1rem 0;
+    color: var(--dom2-color);
+    text-align: justify;
+    line-height: 1.6rem;
+  }
 }
 @media (max-width: 897px) {
   /* vp home */
@@ -1955,6 +1978,25 @@ button.me-btn:hover {
     color: var(--dom2-color);
     text-align: justify;
     line-height: 1.6rem;
+  }
+}
+@media (max-width: 500px){
+  #btn {
+    order: 2;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px 2rem;
+    margin: 0 -30px;
+    margin-left: 3.2rem;
+    margin-top: 11px;
+    font-size: 0.9rem;
+    font-family: var(--Poppins);
+    cursor: pointer;
+    max-width: 100%;
+  }
+  .project-container .ab .project-box .p-img{
+    margin: 0 -14px;
   }
 }
 
