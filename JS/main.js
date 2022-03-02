@@ -51,7 +51,8 @@ const scroll = ScrollReveal({
     origin: 'top',
     distance: '10px',
     duration: 1000,
-    reset: false
+    reset: false,
+    delay: 100
 });
 
 scroll.reveal('.about-h1, .about-box, .skill-h1, .skill-box, .project-h1, .project-box, .contact-h1, .contact-links');
