@@ -55,6 +55,6 @@ const scroll = ScrollReveal({
     delay: 100
 });
 
-scroll.reveal('.about-h1, .about-box, .skill-h1, .skill-box, .project-h1, .project-box, .contact-h1, .contact-links');
+scroll.reveal('.about-h1, .about-box, .skill-h1, .skill-box, .project-h1, .project-box, .contact-h1, .contact-links', {});
 // -----------x--scroll animation
 
