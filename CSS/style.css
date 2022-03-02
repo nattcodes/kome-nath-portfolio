@@ -282,7 +282,7 @@ ul {
   transition: 0.2s ease-in-out;
 }
 .navbar.sticky .nav-links li a {
-  color: white;
+  color: var(--sticky);
 }
 .navbar .content {
   display: flex;
@@ -363,8 +363,8 @@ ul {
   top: 34px;
   right: 65px;
 }
-.navbar.sticky .icons{
-  color: white;
+.navbar.sticky .icons.menu-btn{
+  color: var(--sticky);
 }
 
 /* nav-toggle */
@@ -372,6 +372,7 @@ ul {
 
 /* -----------Home Page------------ */
 .home {
+  width: 100%;
   position: relative;
   padding: 150px 0px;
   display: flex;
@@ -595,6 +596,7 @@ ul {
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
+  box-shadow: var(--about-shadow);
 }
 #popup.active {
   visibility: visible;
@@ -704,6 +706,7 @@ button.me-btn:hover {
 
 /* -----------About------------ */
 .about {
+  width: 100%;
   padding: 30px 0;
   background: var(--about-color);
   font-family: var(--Poppins);
@@ -754,6 +757,7 @@ button.me-btn:hover {
 
 /* ----------skill------------ */
 .skill {
+  width: 100%;
   background: var(--skills);
   font-family: var(--Poppins);
   padding: 20px 0;
@@ -763,7 +767,7 @@ button.me-btn:hover {
   font-family: var(--Poppins);
   text-align: right;
   margin: 0 4rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bolder;
   color: var(--dom-color);
 }
@@ -799,6 +803,7 @@ button.me-btn:hover {
 
 /* -----------project------------ */
 .project{
+  width: 100%;
   background: var(--secondary-color);
   padding: 30px 0;
   font-family: var(--Poppins);
@@ -806,7 +811,7 @@ button.me-btn:hover {
 .project .project-h1{
   margin: 0 4rem;
   color: var(--dom-color);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 .project .project-container .ab{
@@ -885,9 +890,72 @@ button.me-btn:hover {
 }
 
 /* ------x-----project------x------ */
-.nxt {
-  background: white;
+
+/* -----------contact------------ */
+.contact{
+  width: 100%;
+  padding: 30px 0;
+  background: var(--about-color);
+  font-family: var(--Poppins);
 }
+.contact .contact-h3{
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  font-family: var(--Poppins);
+  text-align: center;
+}
+.contact .contact-content{
+  font-family: var(--Poppins);
+  align-items: center;
+  text-align: center;
+}
+.contact-content .contact-h1{
+  color: var(--dom-color);
+  font-size: 4rem;
+}
+.contact-content .contact-links .contact-item{
+  color: var(--dom-color);
+
+}
+.contact-content .contact-links .contact-item.a{
+  font-size: 1rem;
+  color: var(--dom-color);
+  margin: 1rem 0;
+}
+.contact-content .contact-links .contact-item.a a{
+  color: var(--dom-color);
+  padding-bottom: .3rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+.contact-content .contact-links .contact-item.a i{
+  margin: 0 .6rem;
+}
+.contact-content .contact-links .contact-item.b{
+  font-size: 1rem;
+  
+  margin: 1rem 0;
+  display: inline-flex;
+}
+.contact-content .contact-links .contact-item.b i{
+  color: var(--dom-color);
+  margin: 0 1rem;
+}
+/* ------x-----contact------x------ */
+
+/* -------------copyright------------ */
+.footer{
+  background: black;
+  width: 100%;
+  text-align: center;
+}
+.footer p{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: var(--Poppins);
+  padding: .8rem 0;
+  font-weight: lighter;
+}
+/* -----x--------copyright-------x----- */
 /* -----------View Port------------ */
 @media (max-width: 1230px) {
   /* vp nav */
@@ -964,7 +1032,9 @@ button.me-btn:hover {
   .navbar.sticky {
     padding: 10px;
   }
-
+  .navbar.sticky .nav-links li a {
+    color: var(--secondary-color);
+  }
   #icon {
     width: 1.8rem;
   }
@@ -1979,6 +2049,12 @@ button.me-btn:hover {
     text-align: justify;
     line-height: 1.6rem;
   }
+  .contact .contact-h3{
+    font-size: 1rem;
+  }
+  .contact-content .contact-h1{
+    font-size: 2.5rem;
+  }
 }
 @media (max-width: 500px){
   #btn {
@@ -2224,6 +2300,15 @@ button.me-btn:hover {
     color: var(--dom2-color);
     text-align: justify;
     line-height: 1.6rem;
+  }
+  .contact .contact-h3{
+    font-size: .9rem;
+  }
+  .contact-content .contact-h1{
+    font-size: 2rem;
+  }
+  .contact-content .contact-links .contact-item.a{
+    font-size: .9rem;
   }
 }
 @media (max-width: 395px){
