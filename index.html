@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>Nattcodes</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/all.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"></script>
 </head>
+
 <body>
     <div class="preloader">
         <div class="text-wrapper">
@@ -44,7 +46,9 @@
                 <li class="nav-items"><a href="#skill">Skills</a></li>
                 <li class="nav-items"><a href="#project">Projects</a></li>
                 <li class="nav-items"><a onclick="toggle()" href="#">Contact</a></li>
-                <div class="message"><h4 class="h4-nav">Get In Touch</h4></div>
+                <div class="message">
+                    <h4 class="h4-nav">Get In Touch</h4>
+                </div>
                 <a href="https://www.linkedin.com/in/kome-nathaniel-18728b166/" target="blank" class="s"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/nattcodes" target="blank" class="s"><i class="fab fa-github"></i></a>
                 <a href="https://www.twitter.com/kome_nath" target="blank" class="s"><i class="fab fa-twitter"></i></a>
@@ -60,26 +64,26 @@
     <!------------ Home Page ------------>
     <div class="home" id="home">
         <div class="home-content align-items-center" id="blur">
-          <div class="home-row full-screen align-items-center">
-              <div class="home-text">
-                <h2> Hello,</h2>
-                <h1 class="name"><span>I'm Kome Nathaniel</span></h1>
-                <h3 class="occupation"><span>A Frontend Web Developer</span></h3>
-                <h4>A self taught frontend developer that is passionate in solving problems and ready to face challenges.</h4>
-              </div>
-              <div class="home-img">
-                  <div class="img-box inner-shadow">
-                      <img src="assests/PhotoRoom-20210724_012834.png" class="outer-shadow" alt="profile" id="img">
-                  </div>
-              </div>
-              <button class="cv-btn" id="btn"><a href="assests/Kome Nathaniel (CV).docx" download="Kome Nathaniel (CV)">Download CV</a></button>
-              <button class="me-btn" id="btn"><a onclick="toggle()" href="#" >Contact Me</a></button>
-          </div>
+            <div class="home-row full-screen align-items-center">
+                <div class="home-text">
+                    <h2> Hello,</h2>
+                    <h1 class="name"><span>I'm Kome Nathaniel</span></h1>
+                    <h3 class="occupation"><span>A Frontend Web Developer</span></h3>
+                    <h4>A self taught frontend developer that is passionate in solving problems and ready to face challenges.</h4>
+                </div>
+                <div class="home-img">
+                    <div class="img-box inner-shadow">
+                        <img src="assests/PhotoRoom-20210724_012834.png" class="outer-shadow" alt="profile" id="img">
+                    </div>
+                </div>
+                <button class="cv-btn" id="btn"><a href="assests/Kome Nathaniel [Resume].pdf" download="Kome Nathaniel (CV)">Download CV</a></button>
+                <button class="me-btn" id="btn"><a onclick="toggle()" href="#" >Contact Me</a></button>
+            </div>
         </div>
         <div id="popup">
             <div class="pop-content">
                 <h3 class="pop3"> Contact Me</h3>
-                <h1 class="pop1"><a href= "mailto:komenathaniel@gmail.com" target="_blank">komenathaniel@gmail.com</a></h1>
+                <h1 class="pop1"><a href="mailto:komenathaniel@gmail.com" target="_blank">komenathaniel@gmail.com</a></h1>
                 <a onclick="toggle()" href="#"><i class="close fas fa-times"></i></a>
                 <h5 class="pop5">Social</h5>
                 <ul class="socials">
@@ -92,7 +96,7 @@
         <a href="#contact" class="scroll"></a>
     </div>
     <!-------x----- Home Page -----x------->
-    
+
     <!----------------About-------------------->
     <section class="about" id="about">
         <h1 class="about-h1">About Me</h1>
@@ -108,7 +112,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
     <!--------x--------About-------x------------->
 
@@ -127,6 +131,10 @@
             <div class="skill-box box3">
                 <i id="skill-icon" class="fab fa-js-square"></i>
                 <h3 id="skill-h3">JAVASCRIPT is the front-end programming language I use to make my project dynamic.</h3>
+            </div>
+            <div class="skill-box box4">
+                <i id="skill-icon" class="fab fa-react"></i>
+                <h3 id="skill-h3">I use REACT to understand and structure my projects, which is more effective.</h3>
             </div>
         </div>
     </section>
@@ -210,7 +218,7 @@
         <div class="contact-content">
             <h1 class="contact-h1">Let's Work Together</h1>
             <ul class="contact-links">
-                <li class="contact-item a"><i class="fas fa-envelope"></i><a href= "mailto:komenathaniel@gmail.com" target="_blank">komenathaniel@gmail.com</a></li>
+                <li class="contact-item a"><i class="fas fa-envelope"></i><a href="mailto:komenathaniel@gmail.com" target="_blank">komenathaniel@gmail.com</a></li>
                 <li class="contact-item b"><a href="https://www.linkedin.com/in/kome-nathaniel-18728b166/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 <li class="contact-item b"><a href="https://github.com/nattcodes" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li class="contact-item b"><a href="https://www.twitter.com/kome_nath" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -225,12 +233,13 @@
         <p>Copyright &copy; 2022 Kome Nath</p>
     </footer>
     <!-------x----------Copyright---------x---------->
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="JS/jQuery3.5.1.min.js"></script>
     <script type="text/javascript" src="JS/main.js"></script>
     <script src="JS/typed.min.js"></script>
 
-    
+
 </body>
+
 </html>
