@@ -4,12 +4,12 @@ const menu = document.querySelector(".nav-links");
 const cancelBtn = document.querySelector(".cancel-btn");
 const menuBtn = document.querySelector(".menu-btn");
 
-menuBtn.onclick = ()=>{
+menuBtn.onclick = () => {
     menu.classList.add("active");
     menuBtn.classList.add("hide");
 }
 
-cancelBtn.onclick = ()=>{
+cancelBtn.onclick = () => {
     menu.classList.remove("active");
     menuBtn.classList.remove("hide");
 }
@@ -21,18 +21,18 @@ cancelBtn.onclick = ()=>{
 
 //dark and light mode
 const icon = document.getElementById("icon");
-icon.onclick = ()=>{
-     document.body.classList.toggle("dark-theme");
-     if(document.body.classList.contains("dark-theme")){
-         icon.src = "assests/moon.png";
-     }else{
-         icon.src = "assests/sun.png";
-     }
-}
-//-----------dark and light mode
+icon.onclick = () => {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+            icon.src = "assests/moon.png";
+        } else {
+            icon.src = "assests/sun.png";
+        }
+    }
+    //-----------dark and light mode
 
 //contact pop-up
-function toggle(){
+function toggle() {
     var blur = document.getElementById("blur");
     blur.classList.toggle("active");
     var popup = document.getElementById("popup");
@@ -41,20 +41,19 @@ function toggle(){
 //-----------contact pop-up
 
 // -------------sticky nav
-window.onscroll = ()=>{
-    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-}
-// -------------sticky nav
+window.onscroll = () => {
+        this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+    // -------------sticky nav
 
 // -------------scroll animation
 const scroll = ScrollReveal({
     origin: 'top',
-    distance: '10px',
+    distance: '5px',
     duration: 1000,
     reset: false,
-    delay: 100
+    delay: 50
 });
 
-scroll.reveal('.about-h1, .about-box, .skill-h1, .skill-box, .project-h1, .project-box, .contact-h1, .contact-links', {});
+scroll.reveal('.about-h1, .about-box, .skill-h1, .skill-box, .project-h1, .project-box', {});
 // -----------x--scroll animation
-
