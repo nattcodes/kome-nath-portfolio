@@ -898,9 +898,9 @@ button.me-btn:hover {
 }
 
 .skill .skill-container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
-    margin: 1rem;
+    margin: 1rem 4rem;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -910,7 +910,6 @@ button.me-btn:hover {
     width: 20%;
     align-items: center;
     text-align: center;
-    /* border: 3px solid rgb(77, 186, 248); */
 }
 
 #skill-icon {
@@ -2177,12 +2176,39 @@ button.me-btn:hover {
         font-size: 1.8rem;
     }
     .skill .skill-container {
-        display: block;
-        margin: 0 1rem;
+        width: 80%;
+        margin: 1rem 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-auto-rows: 150px;
+        align-items: center;
+        text-align: center;
     }
     .skill-container .skill-box {
-        width: 100%;
-        margin: 3rem 0;
+        width: 10%;
+        margin: 1rem 0;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+    #skill-h3 {
+        text-align: center;
+        font-family: var(--Livvic);
+        font-size: 1.1rem;
+        font-weight: lighter;
+        color: var(--dom-color);
+        margin: 0 1rem;
+        text-align-last: center;
+        padding: 0;
+    }
+    .box2>#skill-h3 {
+        margin: 0 1.4rem;
+    }
+    .box3>#skill-h3 {
+        margin: 0 -.3rem;
+    }
+    .box5>#skill-h3 {
+        margin: 0;
     }
     .project .project-h1 {
         margin: 0;
@@ -2438,7 +2464,45 @@ button.me-btn:hover {
         color: white;
     }
     .skill .skill-h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
         font-size: 1.5rem;
+    }
+    .skill .skill-container {
+        width: 80%;
+        margin: 1rem 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-auto-rows: 150px;
+        align-items: center;
+        text-align: center;
+    }
+    .skill-container .skill-box {
+        width: 10%;
+        margin: 1rem 0;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+    #skill-h3 {
+        text-align: center;
+        font-family: var(--Livvic);
+        font-size: 1rem;
+        font-weight: lighter;
+        color: var(--dom-color);
+        margin: 0 1rem;
+        text-align-last: center;
+        padding: 0;
+    }
+    .box2>#skill-h3 {
+        margin: 0 1.4rem;
+    }
+    .box3>#skill-h3 {
+        margin: 0 -.3rem;
+    }
+    .box5>#skill-h3 {
+        margin: 0;
     }
     .project .project-h1 {
         font-size: 1.5rem;
@@ -2651,6 +2715,47 @@ button.me-btn:hover {
         cursor: pointer;
         max-width: 100%;
     }
+    .skill .skill-h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .skill .skill-container {
+        width: 80%;
+        margin: 1rem 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        grid-auto-rows: 150px;
+        align-items: center;
+        text-align: center;
+    }
+    .skill-container .skill-box {
+        width: 10%;
+        margin: 1rem 0;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+    #skill-h3 {
+        text-align: center;
+        font-family: var(--Livvic);
+        font-size: 1rem;
+        font-weight: lighter;
+        color: var(--dom-color);
+        margin: 0 1rem;
+        text-align-last: center;
+        padding: 0;
+    }
+    .box2>#skill-h3 {
+        margin: 0 1.4rem;
+    }
+    .box3>#skill-h3 {
+        margin: 0 -.3rem;
+    }
+    .box5>#skill-h3 {
+        margin: 0;
+    }
     .p-h2 {
         font-size: 1.8rem;
     }
@@ -2846,6 +2951,47 @@ button.me-btn:hover {
         font-family: var(--Poppins);
         cursor: pointer;
         max-width: 100%;
+    }
+    .skill .skill-h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .skill .skill-container {
+        width: 80%;
+        margin: 1rem 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        grid-auto-rows: 150px;
+        align-items: center;
+        text-align: center;
+    }
+    .skill-container .skill-box {
+        width: 10%;
+        margin: 1rem 0;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+    #skill-h3 {
+        text-align: center;
+        font-family: var(--Livvic);
+        font-size: 1rem;
+        font-weight: lighter;
+        color: var(--dom-color);
+        margin: 0 1rem;
+        text-align-last: center;
+        padding: 0;
+    }
+    .box2>#skill-h3 {
+        margin: 0 1.4rem;
+    }
+    .box3>#skill-h3 {
+        margin: 0 -.3rem;
+    }
+    .box5>#skill-h3 {
+        margin: 0;
     }
 }
 
