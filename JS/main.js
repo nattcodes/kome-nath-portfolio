@@ -48,11 +48,11 @@ window.onscroll = () => {
 
 // -------------scroll animation
 const scroll = ScrollReveal({
-    origin: 'top',
+    origin: 'left',
     distance: '5px',
     duration: 1000,
     reset: false,
-    delay: 50
+    delay: 80
 });
 
 scroll.reveal('.about-h1, .about-box, .skill-h1, .skill-box, .project-h1, .project-box', {});
