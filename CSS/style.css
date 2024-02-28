@@ -452,6 +452,8 @@ ul {
     width: 100%;
     padding: 15px 40px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .home-row {
